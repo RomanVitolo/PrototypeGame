@@ -1,6 +1,6 @@
 {
     "name": "Core.Runtime",
-    "rootNamespace": "Core.Runtime",
+    "rootNamespace": "",
     "references": [
         "GUID:ce4bfb527c1b9cd47a5569b1106dfece"
     ],
