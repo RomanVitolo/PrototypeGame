@@ -1,5 +1,4 @@
-using System;
-using Core.Runtime;
+using GinjaGaming.FinalCharacterController;
 using UnityEngine;
 
 namespace DialogSystem.Scripts.Runtime
@@ -10,14 +9,12 @@ namespace DialogSystem.Scripts.Runtime
         
         private void OnTriggerEnter(Collider other)
         {
-            var player = other.GetComponent<ThirdPersonMovement>();
+            var player = other.GetComponent<PlayerController>();
             if (player is not null)
             {
                 FindAnyObjectByType<DialogController>().StartDialog(_dialog);
                 transform.LookAt(player.transform);
             }
-
-            
         }
     }
 }
