@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627bb07b54c0436b9074eae9056cffec, type: 3}
+  m_Name: InspectThePanel
+  m_EditorClassIdentifier: 
+  <DisplayName>k__BackingField: Inspect the Panel
+  <Description>k__BackingField: This is a Button Quest by checking out the panel
+    and hitting some buttons
+  <QuestSprite>k__BackingField: {fileID: 21300000, guid: e17091b3e9e26de408a68daac79db9d1, type: 3}
+  _notes: I don't know that our second step is yet
+  Steps:
+  - <Instructions>k__BackingField: Investigate Broken Panels
+    Objectives:
+    - _objectiveType: 0
+      _gameFlag: {fileID: 11400000, guid: aabdb64aec526ff4bb7049ebfce0ec56, type: 2}
+      _requiredValue: 3
+  - <Instructions>k__BackingField: Go look at the panel
+    Objectives:
+    - _objectiveType: 0
+      _gameFlag: {fileID: 11400000, guid: 9fb1cf23ca7c0204faee09edc579e8ae, type: 2}
+      _requiredValue: 0
+    - _objectiveType: 0
+      _gameFlag: {fileID: 11400000, guid: 18ec63bf37c4a5643a632fca6c3f45b3, type: 2}
+      _requiredValue: 0
+  - <Instructions>k__BackingField: Go look at the door
+    Objectives:
+    - _objectiveType: 0
+      _gameFlag: {fileID: 11400000, guid: e78d159e50a1a1945ac8dbebfa2b87d6, type: 2}
+      _requiredValue: 0

@@ -6,7 +6,7 @@ namespace InputSystem.GlobalInputs.Scripts
 {
     
     [CreateAssetMenu(fileName = "InputReader", menuName = "InputSystem/InputReaderSO")]
-    public class InputReaderSO : SerializedScriptableObject, Inputs.IPlayerActions
+    public class InputReaderSO : ScriptableObject, Inputs.IPlayerActions
     {
         public Vector2 MovementValue { get; private set; } = Vector3.zero;
         public Vector2 AimInputValue { get; private set; }

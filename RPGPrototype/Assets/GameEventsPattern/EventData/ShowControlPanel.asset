@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63365fcb4d542434995f78e9fe04ba6c, type: 3}
-  m_Name: OpenRedDoor
+  m_Name: ShowControlPanel
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2

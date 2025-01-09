@@ -5,7 +5,7 @@ using UnityEngine;
 namespace GameEventsPattern.Runtime
 {
     [CreateAssetMenu(fileName = "GameEvent", menuName = "Game Events/Game Event")]
-    public class GameEvent : SerializedScriptableObject
+    public class GameEvent : ScriptableObject
     {
         static HashSet<GameEvent> _listenedEvents = new HashSet<GameEvent>();
         

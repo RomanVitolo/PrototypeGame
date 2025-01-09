@@ -1,0 +1,18 @@
+{
+    "name": "QuestSystem.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "UIHelper.Runtime",
+        "Unity.TextMeshPro",
+        "GameEvents.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
